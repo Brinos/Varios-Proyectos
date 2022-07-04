@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "clase-10",
+			"path": "."
+		},
+		{
+			"name": "clase-11",
+			"path": "..\\clase-11"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "clase-10"
+	}
+}
