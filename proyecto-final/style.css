@@ -67,7 +67,11 @@ h2{
     align-items: center;
 }
 
+.enlaces-pro:visited{
+    color: violet;
+   }
 
-
-
+   .enlaces-pro:link{
+    color: black;
+  }
 
