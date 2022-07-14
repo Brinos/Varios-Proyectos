@@ -1,77 +1,77 @@
-/*# sourceMappingURL=style.css.map */
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;1,200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,500;8..144,700&display=swap");
-.navegation {
-  background-color: whitesmoke;
-  width: 110%;
-  height: 110px;
-}
-.navbarnavbar-expand-mdbg-darknavbar-dark {
-  list-style: none;
-  text-decoration: none;
-  position: relative;
-  display: inline-block;
-  margin: 55px 55px;
-  justify-content: space-between;
-}
-.navbarnavbar-expand-mdbg-darknavbar-dark {
-  color: blue;
-  text-decoration: none;
-  margin: relative;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,500;8..144,700&display=swap');
+ 
+*{
+
 }
 
-.logo-del-emprendimiento {
-  width: 300px;
-  border-radius: 8px;
+body{
+    font-family: 'Nunito', sans-serif;
 }
 
-.footer {
-  background-color: whitesmoke;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
+h1{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 40px 0px;
+    margin-left: 500px;
+}
+h2{
+    margin: 40px 0px;
+    margin-left: 500px;
+}
+.navegation{
+    background-color:whitesmoke;
+    width: 110%;
+    height: 110px;
+}
+.navegation ul li {
+    list-style: none;
+    text-decoration: none;
+    position:relative;
+    display: inline-block;
+    margin: 55px 55px;
+    justify-content: space-between;
+
+
+}
+.navegation ul li a {
+    color: blue;
+    text-decoration: none;
+    margin: relative;
+}
+.logo-del-emprendimiento{
+    width: 1000px;
+    height: 1000px;
+    
+}
+.footer{
+    background-color: whitesmoke;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-template-rows: auto;
 }
 
-.link-redes {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.link-redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.enlaces-pro:visited {
-  color: violet;
-}
+.enlaces-pro:visited{
+    color: violet;
+   }
 
-body {
-  font-family: "Nunito", sans-serif;
-}
+   .enlaces-pro:link{
+    color: black;
+  }
 
-h1 {
-  font-family: "Roboto Flex", sans-serif;
-  font-size: 40px;
-  font-weight: bold;
-  /* margin: 40px 0px;
-  margin-left: 500px; */
-}
-
-h2 {
-  /* margin: 40px 0px;
-  margin-left: 500px; */
-}
-
-
-.section-dos p {
-  font-size: 2rem;
-  text-align: center;
-}
-
-/*# sourceMappingURL=style.css.map */
